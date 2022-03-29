@@ -4,7 +4,8 @@ div.text-returnal p{
   color: white;
 }
 
-div.text-ps5 p{
+div.text-ps5 p,
+div.text-console p{
   color: grey;
 }
 
