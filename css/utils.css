@@ -11,7 +11,9 @@ div.crash-card h6{
 }
 
 div.text-ps5 p,
-div.text-console p{
+div.text-console p,
+div.esplora p,
+div.box-ps4 p{
   color: grey;
 }
 
@@ -19,7 +21,10 @@ div.returnal-card img,
 div.ratchet-card img,
 div.prodotto-card img,
 div.crash-card img,
-div.tony-card img{
+div.tony-card img,
+div.ps4-card img,
+div.double-card img,
+div.dual-card img{
   width: 100%;
   border-radius: 10px;
 }

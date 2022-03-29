@@ -104,6 +104,23 @@ div.uscite h2{
 /* /Nuove uscite */
 
 /* Esplora PS4 */
+
+div.esplora h2{
+  padding-top: 20px;
+}
+
+box-ps4 span{
+  text-transform: uppercase;
+}
+
+div.box-ps4 h2{
+  margin: 20px 0;
+}
+
+div.box-ps4{
+  margin-bottom: 50px;
+}
+
 /* /Esplora PS4 */
 
 /* Jumbotron-3 */
