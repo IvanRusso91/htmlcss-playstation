@@ -1,6 +1,12 @@
 
 div.text-returnal h2,
-div.text-returnal p{
+div.text-returnal p,
+div.text-t-two h2,
+div.text-t-two p,
+div.uscite h2,
+div.uscite h5,
+div.tony-card h6,
+div.crash-card h6{
   color: white;
 }
 
@@ -9,6 +15,14 @@ div.text-console p{
   color: grey;
 }
 
+div.returnal-card img,
+div.ratchet-card img,
+div.prodotto-card img,
+div.crash-card img,
+div.tony-card img{
+  width: 100%;
+  border-radius: 10px;
+}
 
 
 

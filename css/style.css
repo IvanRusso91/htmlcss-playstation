@@ -35,12 +35,6 @@ div.box-cards{
   border-radius: 10px;
 }
 
-div.returnal-card img,
-div.ratchet-card img,
-div.prodotto-card img {
-  width: 100%;
-  border-radius: 10px;
-}
 /* /Cards */
 
 /* PS5 */         /* effetti + Allineare la scritta con l'img */
@@ -69,10 +63,44 @@ div.box-prodotto h4{
 
 /* /PS5 */
 
-/* Jumbotron-2 */
+/* Jumbotron-2 */           /* effetti+ bottone */
+div.Jumbotron-2{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;  
+}
+
+div.t-two-banner img{
+  width: 30%;
+}
+
+div.t-two-banner{
+  padding-top: 50px; 
+}
+
+div.text-t-two h2{
+  margin-top: 50px;
+}
 /* /Jumbotron-2 */
 
-/* Nuove uscite */
+/* Nuove uscite */         /* effetti */
+
+section.nuove-usc{
+  background-color: rgb(48, 48, 48);
+}
+
+div.tony-card h6,
+div.crash-card h6{
+  margin-top: 15px;
+}
+
+div.ir-box{
+  padding-bottom: 50px;
+}
+
+div.uscite h2{
+  padding-top: 30px;
+}
 /* /Nuove uscite */
 
 /* Esplora PS4 */
