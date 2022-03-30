@@ -12,7 +12,7 @@ div.h-sony img{
 
 /* MAIN */
 
-/* Jumbotron */         /* bottone + (sistemare MQ del banner) */
+/* Jumbotron */         /* bottone */
 
 div.Jumbotron{
   background-image: url(../img/jumbo-bg.png);
@@ -21,11 +21,11 @@ div.Jumbotron{
 }
 
 div.returnal-banner img{
-  width: 50%;
+  height: 50px;
 }
 
 div.returnal-banner{
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 div.text-returnal h2{
@@ -44,6 +44,7 @@ div.box-card{
   border-radius: 20px;
   border: 4px solid white;
   transition:  1s;
+  margin-bottom: 20px;
 }
 
 .box-card-active{
@@ -107,14 +108,15 @@ div.Jumbotron-2{
 }
 
 div.t-two-banner img{
-  width: 30%;
+  height: 200px;
 }
 
 div.t-two-banner{
-  padding-top: 50px; 
+  padding-top: 60px; 
 }
 
 div.text-t-two{
+  width: 20%;
   margin-left: 50px;
 }
 
@@ -188,7 +190,7 @@ div.Jumbotron-3{
 div.logo-plus img,
 div.logo-plus-2 img{
   margin: 80px 0 40px 0;
-  width: 50%;
+  height: 80px;
 }
 
 div.j-3-text,
@@ -298,3 +300,56 @@ div.foot span{
 
 /* /FOOTER */
 
+
+/* MQ */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  div.returnal-banner img{
+    height: 100px;
+  }
+  
+  div.returnal-banner{
+    margin-top: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  div.t-two-banner img{
+    height: 300px;
+  }
+  
+  div.t-two-banner{
+    margin-top: 0px;
+  }
+
+  
+div.text-t-two{
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  
+  div.t-two-banner img{
+    height: 250px;
+  }
+  
+  div.t-two-banner{
+    margin-top: 0px;
+  }
+
+  
+  div.text-t-two{
+  width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  
+  div.logo-plus img,
+  div.logo-plus-2 img{
+    height: 60px;
+  }
+  
+  
+}
