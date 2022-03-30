@@ -35,22 +35,23 @@ div.text-returnal h2{
 
 /* Cards */
 
-div.cards{
+div.cards,
+div.box-card{
   margin-top: 30px;
 }
-
-div.box-cards{
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
+.cards img{
+  width: 100%;
+  border-radius: 20px;
+  border: 4px solid white;
+  transition:  1s;
 }
 
-div.box-cards-1{
-  border: 2px solid rgb(0, 114, 206) ;
+.box-card-active{
+  outline: 2px solid rgb(12, 131, 241);
 }
 
-div.box-cards:hover{
- transform: scale(1.2);
+.cards img:hover{
+  transform: translateY(-15px);
 }
 /* /Cards */
 
@@ -164,6 +165,9 @@ div.box-ps4{
   margin-bottom: 50px;
 }
 
+div.ps4-card p{
+  font-weight: bold;
+}
 /* /Esplora PS4 */
 
 /* Jumbotron-3 */        /* bottone */
