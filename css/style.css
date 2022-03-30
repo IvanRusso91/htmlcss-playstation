@@ -123,26 +123,122 @@ div.box-ps4{
 
 /* /Esplora PS4 */
 
-/* Jumbotron-3 */
+/* Jumbotron-3 */        /* bottone */
+
+div.j-3-sfondo,
+div.Jumbotron-3,
+div.logo-plus{
+  background-color: lightgray; 
+}
+
+div.Jumbotron-3{
+  background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat; 
+}
+
+div.logo-plus img,
+div.logo-plus-2 img{
+  margin: 80px 0 40px 0;
+  width: 50%;
+}
+
+div.j-3-text,
+div.j-4-text{
+  margin-bottom: 40px;
+}
+
 /* /Jumbotron-3 */
 
 /* PS Store */
+
+div.text-ps{
+  margin-bottom: 50px;
+}
+
+div.text-ps h2{
+  margin-top: 50px;
+}
+
+div.store-card img{
+  margin-bottom: 40px;
+  border-radius: 0;
+}
 /* /PS Store */
 
-/* Jumbotron-4 */
+/* Jumbotron-4 */           /* bottone */
+
+div.j-4-sfondo,
+div.Jumbotron-4,
+div.logo-plus-2{
+  background-color: rgb(23, 0, 226); 
+}
+
+div.Jumbotron-4{
+  background-image: url(../img/ps-now-april-featured-image-block.png);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat; 
+}
 /* /Jumbotron-4 */
 
-/* Social */
-/* /Social */
+/* Social */   /* sistemare loghi */ 
+ 
+div.social p{
+  margin: 50px 0;
+  font-size: 2rem;
+}
 
+div.logo-card img{
+  border-radius: 0;
+}
+/* /Social */
 /* /MAIN */
 
 /* FOOTER */
 
+.bg-footer{
+  background-color: rgb(25, 25, 241);
+}
+
 /* Logo + colonne */
+
+div.ir-container{
+  background-color: rgb(25, 25, 241);
+}
+
+div.foot-ps{
+  margin: 100px 0 30px 0;
+}
+
+div.text-foot p{
+  font-size: 0.8rem;
+}
+
+div.col-foot{
+  margin-top: 100px;
+}
+
+div.col-foot li{
+  padding-bottom:20px  ;
+}
+
 /* /Logo + colonne */
 
 /* Conclusione */
+
+div.sie-foot{
+ width: 150px; 
+}
+
+div.foot{
+  margin: 30px 0;
+}
+
+div.foot span{
+  text-decoration: underline;
+}
 /* /Conclusione */
 
 /* /FOOTER */

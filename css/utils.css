@@ -6,14 +6,18 @@ div.text-t-two p,
 div.uscite h2,
 div.uscite h5,
 div.tony-card h6,
-div.crash-card h6{
+div.crash-card h6,
+div.j-4-text p,
+div.text-foot p,
+div.foot p{
   color: white;
 }
 
 div.text-ps5 p,
 div.text-console p,
 div.esplora p,
-div.box-ps4 p{
+div.box-ps4 p,
+div.text-ps p{
   color: grey;
 }
 
@@ -24,7 +28,9 @@ div.crash-card img,
 div.tony-card img,
 div.ps4-card img,
 div.double-card img,
-div.dual-card img{
+div.dual-card img,
+div.store-card img,
+div.logo-card img{
   width: 100%;
   border-radius: 10px;
 }
