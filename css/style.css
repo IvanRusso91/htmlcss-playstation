@@ -24,20 +24,28 @@ div.text-returnal h2{
 }
 /* /Jumbotron */
 
-/* Cards */                       /* dare effetto alle cards */
+/* Cards */
 
 div.cards{
   margin-top: 30px;
 }
 
 div.box-cards{
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
+  transition: 1s;
 }
 
+div.box-cards-1{
+  border: 2px solid rgb(0, 114, 206) ;
+}
+
+div.box-cards:hover{
+ transform: scale(1.2);
+}
 /* /Cards */
 
-/* PS5 */         /* effetti + Allineare la scritta con l'img */
+/* PS5 */         /* Allineare la scritta con l'img */
 
 div.text-ps5{
   margin: 50px 0px;
@@ -54,20 +62,34 @@ div.console-ps5 img{
 }
 
 div.box-prodotto{
-padding: 20px;
+margin: 20px 20px;
 }
 
-div.box-prodotto h4{
-  margin-top: 20px;
+div.box-prodotto h5{
+  margin-top: 30px;
 }
 
+div.prodotto-card-1{
+  opacity: 0.5;
+  border-bottom: 2px solid white
+}
+
+div.prodotto-card-ac{
+  border-bottom: 2px solid rgb(12, 131, 241);
+}
+
+div.prodotto-card-1:hover{
+  opacity: 1;
+  border-bottom: 2px solid rgb(12, 131, 241);
+}
 /* /PS5 */
 
 /* Jumbotron-2 */           /* effetti+ bottone */
 div.Jumbotron-2{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
-  background-size: cover;  
+  background-size: cover;
+  margin-top: 20px;  
 }
 
 div.t-two-banner img{
@@ -86,7 +108,7 @@ div.text-t-two h2{
 /* Nuove uscite */         /* effetti */
 
 section.nuove-usc{
-  background-color: rgb(48, 48, 48);
+  background-color: rgb(31, 31, 31);
 }
 
 div.tony-card h6,
@@ -128,7 +150,7 @@ div.box-ps4{
 div.j-3-sfondo,
 div.Jumbotron-3,
 div.logo-plus{
-  background-color: lightgray; 
+  background-color: rgb(190, 188, 187); 
 }
 
 div.Jumbotron-3{
@@ -172,7 +194,7 @@ div.store-card img{
 div.j-4-sfondo,
 div.Jumbotron-4,
 div.logo-plus-2{
-  background-color: rgb(23, 0, 226); 
+  background-color: rgb(22, 28, 59); 
 }
 
 div.Jumbotron-4{
@@ -199,13 +221,13 @@ div.logo-card img{
 /* FOOTER */
 
 .bg-footer{
-  background-color: rgb(25, 25, 241);
+  background-color: rgb(0, 67, 156);
 }
 
 /* Logo + colonne */
 
 div.ir-container{
-  background-color: rgb(25, 25, 241);
+  background-color: rgb(0, 67, 156);
 }
 
 div.foot-ps{
