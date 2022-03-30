@@ -123,6 +123,10 @@ div.ir-box{
 div.uscite h2{
   padding-top: 30px;
 }
+
+div.ir-box .cards:hover{
+  opacity: 0.5;
+}
 /* /Nuove uscite */
 
 /* Esplora PS4 */
@@ -212,6 +216,10 @@ div.social p{
   font-size: 2rem;
 }
 
+div.social-logo{
+  margin-bottom: 50px;
+}
+
 div.logo-card img{
   border-radius: 0;
 }
@@ -246,6 +254,10 @@ div.col-foot li{
   padding-bottom:20px  ;
 }
 
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
 /* /Logo + colonne */
 
 /* Conclusione */
