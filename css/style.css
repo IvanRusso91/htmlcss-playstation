@@ -1,4 +1,13 @@
 /* HEADER */
+div.h-sony{
+  background-color: black;
+  height: 30px;
+  text-align: right;
+}
+
+div.h-sony img{
+  width: 8%;
+}
 /* HEADER */
 
 /* MAIN */
@@ -45,7 +54,11 @@ div.box-cards:hover{
 }
 /* /Cards */
 
-/* PS5 */         /* Allineare la scritta con l'img */
+/* PS5 */ 
+
+div.ps5{
+  align-items: center;
+}
 
 div.text-ps5{
   margin: 50px 0px;
@@ -84,7 +97,7 @@ div.prodotto-card-1:hover{
 }
 /* /PS5 */
 
-/* Jumbotron-2 */           /* effetti+ bottone */
+/* Jumbotron-2 */           /* bottone */
 div.Jumbotron-2{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
@@ -100,12 +113,16 @@ div.t-two-banner{
   padding-top: 50px; 
 }
 
+div.text-t-two{
+  margin-left: 50px;
+}
+
 div.text-t-two h2{
   margin-top: 50px;
 }
 /* /Jumbotron-2 */
 
-/* Nuove uscite */         /* effetti */
+/* Nuove uscite */ 
 
 section.nuove-usc{
   background-color: rgb(31, 31, 31);
@@ -209,7 +226,7 @@ div.Jumbotron-4{
 }
 /* /Jumbotron-4 */
 
-/* Social */   /* sistemare loghi */ 
+/* Social */
  
 div.social p{
   margin: 50px 0;
