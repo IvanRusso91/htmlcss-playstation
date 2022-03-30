@@ -31,8 +31,17 @@ div.logo-card img{
   border-radius: 10px;
 }
 
+.ir-btn{
+  border-radius: 20px;
+  padding: 5px 15px;
+  border: none;
+  background-color: orangered;
+  color: white;
+}
 
-
+.ir-btn:hover{
+  outline: 1px solid whitesmoke;
+}
 
 
 

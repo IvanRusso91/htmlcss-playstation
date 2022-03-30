@@ -12,7 +12,7 @@ div.h-sony img{
 
 /* MAIN */
 
-/* Jumbotron */         /* bottone */
+/* Jumbotron */ 
 
 div.Jumbotron{
   background-image: url(../img/jumbo-bg.png);
@@ -76,6 +76,12 @@ div.console-ps5 img{
   width: 100%;
 }
 
+.btn-big,
+.btn-min{
+  background-color: rgb(45, 100, 230);
+}
+
+
 div.box-prodotto{
 margin: 20px 20px;
 }
@@ -99,7 +105,7 @@ div.prodotto-card-1:hover{
 }
 /* /PS5 */
 
-/* Jumbotron-2 */           /* bottone */
+/* Jumbotron-2 */ 
 div.Jumbotron-2{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
@@ -116,13 +122,18 @@ div.t-two-banner{
 }
 
 div.text-t-two{
-  width: 20%;
+  width: 30%;
   margin-left: 50px;
 }
 
 div.text-t-two h2{
   margin-top: 50px;
 }
+
+div.text-t-two p{
+  margin-bottom: 50px;
+}
+
 /* /Jumbotron-2 */
 
 /* Nuove uscite */ 
@@ -172,7 +183,7 @@ div.ps4-card p{
 }
 /* /Esplora PS4 */
 
-/* Jumbotron-3 */        /* bottone */
+/* Jumbotron-3 */ 
 
 div.j-3-sfondo,
 div.Jumbotron-3,
@@ -198,6 +209,19 @@ div.j-4-text{
   margin-bottom: 40px;
 }
 
+div.j-3-text p,
+div.j-4-text p{
+  margin-bottom: 40px;
+}
+
+.btn-jum3{
+  color: rgb(45, 100, 230);
+  background-color: rgb(217, 218, 220);
+}
+
+.btn-jum3:hover{
+  outline: 1px solid rgb(0, 0, 0);
+}
 /* /Jumbotron-3 */
 
 /* PS Store */
@@ -216,7 +240,7 @@ div.store-card img{
 }
 /* /PS Store */
 
-/* Jumbotron-4 */           /* bottone */
+/* Jumbotron-4 */ 
 
 div.j-4-sfondo,
 div.Jumbotron-4,
@@ -229,6 +253,15 @@ div.Jumbotron-4{
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat; 
+}
+
+.btn-jum4{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-jum4:hover{
+  outline: 1px solid rgb(0, 0, 0);
 }
 /* /Jumbotron-4 */
 
@@ -351,5 +384,10 @@ div.text-t-two{
     height: 60px;
   }
   
-  
+}
+
+@media screen and (min-width: 1400px){
+  .box-mq p{
+    margin-bottom: 41px;
+  } 
 }
