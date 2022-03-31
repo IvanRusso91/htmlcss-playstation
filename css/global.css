@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+header{
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  position: fixed;
+  background-color: rgb(248, 249, 250);
+}
+
 a{
   color: white;
   text-decoration: none;

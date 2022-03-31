@@ -6,7 +6,37 @@ div.h-sony{
 }
 
 div.h-sony img{
-  width: 8%;
+  height: 20px;;
+}
+
+.nav-link img{
+  height: 30px;
+  margin-left: 10px;
+}
+
+.h-btn{
+  background-color: rgb(54, 54, 54);
+  padding: 5px 20px;
+}
+
+.h-btn:hover{
+  color: rgb(12, 131, 241);
+  outline: 2px solid rgb(12, 131, 241);
+}
+
+.navbar-nav a,
+.d-flex a{
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover,
+.d-flex a:hover{
+  color: rgb(12, 131, 241);
+}
+
+button.navbar-light{
+  border: 1px solid black;
 }
 /* HEADER */
 
@@ -116,6 +146,7 @@ div.Jumbotron-2{
 
 div.t-two-banner img{
   height: 200px;
+
 }
 
 div.t-two-banner{
@@ -150,14 +181,16 @@ div.crash-card h6{
 
 div.ir-box{
   padding-bottom: 50px;
+  transition: 1s;
 }
 
 div.uscite h2{
   padding-top: 30px;
 }
 
-div.ir-box .cards:hover{
-  opacity: 0.5;
+div.ir-box .tony-card:hover,
+div.ir-box .crash-card:hover{
+  cursor: pointer;
 }
 /* /Nuove uscite */
 
@@ -221,6 +254,7 @@ div.j-4-text p{
 }
 
 .btn-jum3:hover{
+  color: black;
   outline: 1px solid rgb(0, 0, 0);
 }
 /* /Jumbotron-3 */
