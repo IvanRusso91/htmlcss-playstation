@@ -40,7 +40,8 @@ div.logo-card img{
 }
 
 .ir-btn:hover{
-  outline: 1px solid whitesmoke;
+  outline: 2px solid whitesmoke;
+  outline-offset: -5px;
 }
 
 
