@@ -56,13 +56,13 @@ button.navbar-light{
 .nav-s:focus-within .down,
 .nav-n:focus-within .down,
 .nav-f:focus-within .down,
-.nav-su:focus-within .down,
-.nav-m:focus-within .down{
+.nav-su:focus-within .down{
   display: block;
 }
 
-.dow-2{
-  list-style: square;
+div.down img:hover{
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px lightgray
 }
 
 .down li{
@@ -70,10 +70,16 @@ button.navbar-light{
 }
 
 .dow-2 li{
+  font-weight: bold;
   padding:0 25px;
 }
 
-/* HEADER */
+.dow-2 li:hover{
+  cursor: pointer;
+  color:  rgb(12, 131, 241) ;
+}
+
+/* /HEADER */
 
 /* MAIN */
 
@@ -119,6 +125,7 @@ div.box-card{
 
 .cards img:hover{
   transform: translateY(-15px);
+  box-shadow: 0px 10px 8px gray
 }
 /* /Cards */
 
@@ -354,6 +361,7 @@ div.social-logo{
 
 div.logo-card img{
   border-radius: 0;
+  margin-bottom: 30px;
 }
 /* /Social */
 /* /MAIN */
@@ -412,6 +420,8 @@ div.foot span{
 
 /* MQ */
 
+/* jumbotron MQ */
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   div.returnal-banner img{
     height: 100px;
@@ -422,6 +432,10 @@ div.foot span{
   }
 }
 
+/* /jumbotron MQ */
+
+/* /jumbotron-2 MQ */
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   div.t-two-banner img{
     height: 300px;
@@ -430,10 +444,9 @@ div.foot span{
   div.t-two-banner{
     margin-top: 0px;
   }
-
-  
-div.text-t-two{
-  width: 100%;
+ 
+  div.text-t-two{
+    width: 100%;
   }
 }
 
@@ -447,11 +460,14 @@ div.text-t-two{
     margin-top: 0px;
   }
 
-  
   div.text-t-two{
   width: 90%;
   }
 }
+
+/* /jumbotron-2 MQ */
+
+/* jumbotron-3/4 MQ */
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
   
@@ -462,9 +478,16 @@ div.text-t-two{
   
 }
 
+/* /jumbotron-3/4 MQ */
+
+/* Esplora PS4 MQ */
+
 @media screen and (min-width: 1400px){
   .box-mq p{
     margin-bottom: 41px;
   } 
 }
+
+/* /Esplora PS4 MQ */
+/* /MQ */
 
