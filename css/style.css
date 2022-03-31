@@ -40,7 +40,6 @@ button.navbar-light{
   border: 1px solid black;
 }
 
-
 /* HEADER */
 
 /* MAIN */
@@ -436,27 +435,3 @@ div.text-t-two{
   } 
 }
 
-/* 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-  
-  div.Jumbotron-3 img{
-    margin-left: 150px;
-  } 
-} 
-
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  
-  div.Jumbotron-3 img{
-    margin-left:0px;
-  }
-} 
-
-
-
-@media screen and (min-width: 768px) and (max-width: 810px) {
-  
-  div.Jumbotron-3 img{
-    height: 415px;
-  } 
-}  */
