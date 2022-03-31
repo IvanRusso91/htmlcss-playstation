@@ -40,6 +40,39 @@ button.navbar-light{
   border: 1px solid black;
 }
 
+.down{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  display: none; 
+  
+}
+
+.nav-g:focus-within .down,
+.nav-h:focus-within .down,
+.nav-s:focus-within .down,
+.nav-n:focus-within .down,
+.nav-f:focus-within .down,
+.nav-su:focus-within .down,
+.nav-m:focus-within .down{
+  display: block;
+}
+
+.dow-2{
+  list-style: square;
+}
+
+.down li{
+  display: inline-block;
+}
+
+.dow-2 li{
+  padding:0 25px;
+}
+
 /* HEADER */
 
 /* MAIN */
